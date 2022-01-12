@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+
+</head>
+
+<link rel="stylesheet" href="./style.css">
+
+<h1>Fibonacci Calculator</h1>
+<body>
+   
+<div id="name" class="name"> 
+
+    <div class="fibbonacciOf">Fibonacci of</div>
+    <input id="input" class="input" placeholder="#" onkeydown="onKeyDown()" />
+    <button id="submitNumberButton" class="submitNumberButton" value = "find sum" type = "submit" onclick = "clearcontent('clear')"> is </button>
+    <div class="wrapper">
+        <span id="output" class="output"></span>
+        <div class="loader" id="loader"></div> 
+    </div>
+
+</div>
+
+  <div id="error" class="error"></div>
+  <div id="resultsDisplay" class="results-display">
+     <div id="title" class="title">
+         <div class=titleText id=titleText>Results</div>
+         <div class="loader" id="secondLoader"></div>
+     </div>
+  </div>
+
+</body>
+
+<script src="./index.js"></script>
+
+
+
+</html>

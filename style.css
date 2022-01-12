@@ -1,0 +1,134 @@
+.name{
+  font-size:larger;
+  display:flex;
+  flex-direction: row;
+  font-family: sans-serif;
+}
+ 
+.fibbonacciOf{ 
+  padding-top:3px;
+  font-family: sans-serif;
+}
+  
+.wrapper{
+  font-family: sans-serif;
+  display:flex;
+  flex-direction: row;
+}
+
+.submitNumberButton {
+  background-color:#0039a6;
+  margin-left: 5px;
+  color: white;
+  border-radius: 7px;
+  padding:5px;
+  height: 60%;
+  font-family: sans-serif;
+}
+
+.input {
+  border-radius: 7px;
+  padding: 5px;
+  margin-left: 5px;
+  height: 60%;
+  width: 5%;
+}
+
+.output {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 5px;
+  padding-top: 3px;
+  color:black;
+}
+
+.serverError{
+  padding-right:5px;
+  text-decoration:none;
+  color:red;
+  font-weight: none;
+  border:none;
+}
+
+
+.error { 
+  margin-left:82px;
+  margin-top: 8px;
+  padding-left: 8px;
+  border-top: 8px;
+  border-bottom: 8px;
+  border-right: 100px;
+  border-radius: 8px;
+  background-color: rgba(247, 120, 120, 0.5);
+  width:20%;
+  color:red;
+}
+
+.empty{
+  background-color: white;
+}
+
+.loader {
+  border: 5px solid black;
+  border-radius: 50%;
+  border-top: 5px solid white;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+ 
+.results-display{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  display:flex;
+  flex-direction:row;
+}
+
+.titleText{
+  padding-right: 10px;
+  font-family: sans-serif;
+  font-size:larger;
+}
+
+.resultsWrapper{
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid black 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 60%;
+  font-family: sans-serif;
+}
+
+.fibonacciText{
+  padding-right:6px;
+}
+    
+.number{
+  padding-right:6px;
+}
+.isText{
+  padding-right:6px;
+}
+.result{
+  padding-right:6px;
+}
+.dateText{
+  padding-right:6px;
+}
+.dateDisplay{
+    padding-right:6px;
+}
